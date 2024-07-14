@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>નેહા | Portfolio</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="external.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="text-white p-6 backdrop-blur-lg" id="main-header">
+    <nav class="container mx-auto flex justify-between">
+      <!-- <a href="#home" class="logo font-semibold"><img src="./assets/flower.png" class="w-7 h-7"> નેહા</a> -->
+      <a href="#home" class="logo font-semibold flex items-center">
+        <img src="./assets/flower.png" class="w-6 h-6 mr-1 align-middle"> 
+        <span style="font-family: 'Noto Sans Gujarati';" class="leading-none">નેહા</span>
+      </a>
+      <div class="hidden md:flex space-x-4">
+        <a href="#home" class="ml-4 link home-link active">home</a>
+        <a href="#about" class="ml-4 link">about</a>
+        <a href="#projects" class="ml-4 link">projects</a>
+        <a href="#skills" class="ml-4 link">skills</a>
+        <a href="#contact" class="ml-4 link">contact</a>
+      </div>
+      <button class="md:hidden text-lg" id="menu-btn">
+        ☰
+      </button>
+    </nav>
+  </header>
+
+  <div class="fixed inset-0 bg-gray-900 text-white p-4 menu-hidden  z-50" id="mobile-menu">
+    <div class="mx-auto pt-4 flex justify-between">
+      <span class="logo">menu</span>
+      <button class="text-lg mb-5" id="close-btn">✕</button>
+    </div>
+    <hr class="hr">
+    <nav class="flex flex-col space-y-4 mt-5">
+      <a href="#home" class="link home-link active pt-8" style="text-align: left;">home</a>
+      <a href="#about" class="link pt-5" style="text-align: left;">about</a>
+      <a href="#projects" class="link pt-5" style="text-align: left;">projects</a>
+      <a href="#skills" class="link pt-5" style="text-align: left;">skills</a>
+      <a href="#contact" class="link pt-5" style="text-align: left;">contact</a>
+    </nav>
+  </div>
+
+
+  <main class="container mx-auto mt-28">
+    <section id="home" class="pt-16">
+      <p class="t1 animate-from-bottom">Hello, I'm</p>
+      <p class="t2 animate-from-bottom">Neha.</p>
+      <div class="wave-container mt-5 mb-5">
+        <div class="wave-line"></div>
+      </div>
+      <p class="t3 animate-from-bottom">Software Engineer</p>
+      <p class="t3 animate-from-bottom">Full Stack Developer</p>
+    </section>
+
+    <div class="flex justify-center mt-6 space-x-4 animate-from-bottom">
+      <a href="https://www.linkedin.com/in/neha-thakor-5b606b290" target="_blank"
+        class="text-gray-400 hover:text-white transition-colors duration-300">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a href="https://github.com/nehathakor" target="_blank"
+        class="text-gray-400 hover:text-white transition-colors duration-300">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="https://x.com/ntthere_" target="_blank"
+        class="text-gray-400 hover:text-white transition-colors duration-300">
+        <i class="fab fa-twitter fa-lg"></i>
+      </a>
+    </div>
+
+    <section class="flex items-center justify-center pt-7 btns">
+      <a href="mailto:neha.k.thakor@gmail.com" class="btn">Get in touch</a>
+      <a href="./neha_resume.pdf" class="btn1">Resume</a>
+    </section>
+
+    <section class="flex items-center justify-center pt-7" id="about">
+      <p class="t4 pt-8 animate-from-bottom scroll-animation decorative-border">About Me</p>
+    </section>
+
+    <section class="flex items-center justify-center mt-8 animate-from-bottom">
+      <div class="flex flex-col md:flex-row items-center max-w-screen-lg mx-auto mt-6">
+        <img src="./assets/about.png" class="responsive-img md:w-1/3 md:mr-9 mb-4 md:mb-0" alt="About Image">
+        <div class="md:w-2/3 md:ml-8 mt-4 px-3">
+          <p class="mb-4 t3">I'm Neha Thakor, a Full Stack Developer from India with a strong passion for Software
+            Development, Backend Systems, and Open-Source Software. Currently pursuing my undergraduate degree in
+            Computer Science and Engineering at Amity University, Gurugram. I specialize in technologies such as
+            JavaScript, Node.js, and have a keen interest in building scalable and efficient backend systems.</p>
+          <p class="t3">My goal is to continue expanding my skills in Full Stack Development and contribute to impactful
+            projects that make a difference in the tech industry.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-center pt-7" id="projects">
+      <p class="t4 pt-8 animate-from-bottom decorative-border">Projects</p>
+    </section>
+
+    <div class="my-4 md:my-12 w-full md:max-w-screen-2xl md:mx-auto md:px-16 scroll-mt-24" id="projects">
+      <ul class="flex flex-col items-center justify-center w-full animate-from-bottom">
+        <div>
+          <div
+            class="border text-white md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1 lg:grid-cols-10 mt-8">
+            <div class="w-full h-full flex items-start mt-6 lg:col-span-4 px-3">
+              <img alt="Picture of the author" loading="lazy" width="100%" height="600" decoding="async" data-nimg="1"
+                class="rounded-lg" style="color:transparent" srcset="./assets/ep1.jpg" src="./assets/ep1.jpg">
+            </div>
+            <div class="lg:col-span-6">
+              <div class="flex-col space-y-1.5 p-6 flex">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight flex items-center justify-between">
+                  <div class="flex text-xl md:text-2xl items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="mr-2 text-white">
+                      <path d="M8 6h10"></path>
+                      <path d="M6 12h9"></path>
+                      <path d="M11 18h7"></path>
+                    </svg>
+                    EpicReads
+                  </div>
+                  <div class="flex gap-2">
+                    <a target="_blank" class="hover:text-blue-500 transition-all"
+                      href="https://github.com/nehathakor/bookstore.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-6 w-6 hover:text-purple-700 text-white">
+                        <path
+                          d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                        </path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                    </a>
+                    <a target="_blank" class="hover:text-blue-500 transition-all"
+                      href="https://epicreads-neha.vercel.app/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-5 w-5 text-white hover:text-purple-700">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                      </svg>
+                    </a>
+                  </div>
+                </h3>
+                <p class="text-sm text-muted-foreground text-white">A Book Store Website</p>
+              </div>
+              <div class="p-6 pt-0">
+                <div class="text-neutral-400 text-sm">
+                  EpicReads is a modern online bookstore that allows users to effortlessly add, edit, delete, and
+                  purchase books. It includes a payment gateway using Stripe and user authorization with Passport.js,
+                  ensuring secure transactions and user management. The website is fully responsive, providing an
+                  optimal experience on all devices.
+                </div>
+              </div>
+              <div class="flex items-center p-6 pt-0">
+                <div class="flex gap-3 flex-wrap">
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Node.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Express.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">MongoDB
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">TailwindCSS
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">EJS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+
+      <ul class="flex flex-col items-center justify-center w-full animate-from-bottom">
+        <div>
+          <div
+            class="border text-white md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1 lg:grid-cols-10 mt-8">
+            <div class="w-full h-full flex items-start mt-6 lg:col-span-4 px-3">
+              <img alt="Picture of the author" loading="lazy" width="100%" height="600" decoding="async" data-nimg="1"
+                class="rounded-lg" style="color:transparent" srcset="./assets/vv2.jpg" src="./assets/vv2.jpg">
+            </div>
+            <div class="lg:col-span-6">
+              <div class="flex-col space-y-1.5 p-6 flex">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight flex items-center justify-between">
+                  <div class="flex text-xl md:text-2xl items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="mr-2 text-white">
+                      <path d="M8 6h10"></path>
+                      <path d="M6 12h9"></path>
+                      <path d="M11 18h7"></path>
+                    </svg>
+                    VisualVibes
+                  </div>
+                  <div class="flex gap-2">
+                    <a target="_blank" class="hover:text-blue-500 transition-all"
+                      href="https://github.com/nehathakor/visualvibes.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-6 w-6 hover:text-purple-700 text-white">
+                        <path
+                          d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                        </path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                    </a>
+                    <a target="_blank" class="hover:text-blue-500 transition-all" href="https://vvnew.onrender.com/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-5 w-5 text-white hover:text-purple-700">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                      </svg>
+                    </a>
+                  </div>
+                </h3>
+                <p class="text-sm text-muted-foreground text-white">A Social Media Website</p>
+              </div>
+              <div class="p-6 pt-0">
+                <div class="text-neutral-400 text-sm">
+                  VisualVibes is a dynamic platform for users to create accounts and share aesthetic visuals. Users can
+                  seamlessly create and manage their accounts, personalize their display profiles, and share a variety
+                  of content, including captivating videos. VisualVibes allows users to express their creativity by
+                  creating and sharing their own aesthetic visuals while also exploring and engaging with posts shared
+                  by others.
+                </div>
+              </div>
+              <div class="flex items-center p-6 pt-0">
+                <div class="flex gap-3 flex-wrap">
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Node.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Express.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">MongoDB
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">TailwindCSS
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">EJS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+
+      <ul class="flex flex-col items-center justify-center w-full animate-from-bottom">
+        <div>
+          <div
+            class="border text-white md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1 lg:grid-cols-10 mt-8">
+            <div class="w-full h-full flex items-start mt-6 lg:col-span-4 px-3">
+              <img alt="Picture of the author" loading="lazy" width="100%" height="600" decoding="async" data-nimg="1"
+                class="rounded-lg" style="color:transparent" srcset="./assets/portfolio.jpg"
+                src="./assets/portfolio.jpg">
+            </div>
+            <div class="lg:col-span-6">
+              <div class="flex-col space-y-1.5 p-6 flex">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight flex items-center justify-between">
+                  <div class="flex text-xl md:text-2xl items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="mr-2 text-white">
+                      <path d="M8 6h10"></path>
+                      <path d="M6 12h9"></path>
+                      <path d="M11 18h7"></path>
+                    </svg>
+                    Portfolio
+                  </div>
+                  <div class="flex gap-2">
+                    <a target="_blank" class="hover:text-blue-500 transition-all" href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-6 w-6 hover:text-purple-700 text-white">
+                        <path
+                          d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                        </path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                    </a>
+                    <a target="_blank" class="hover:text-blue-500 transition-all" href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-5 w-5 text-white hover:text-purple-700">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                      </svg>
+                    </a>
+                  </div>
+                </h3>
+                <p class="text-sm text-muted-foreground text-white">A Personal Website</p>
+              </div>
+              <div class="p-6 pt-0">
+                <div class="text-neutral-400 text-sm">
+                  A personal portfolio website showcasing my skills, projects, and achievements. This responsive site is
+                  designed to provide a professional overview of my work, including detailed descriptions of my
+                  projects, my skill set, and contact information.
+                </div>
+              </div>
+              <div class="flex items-center p-6 pt-0">
+                <div class="flex gap-3 flex-wrap">
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Node.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">Express.js
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">TailwindCSS
+                  </div>
+                  <div class="border rounded-full px-4 py-1 shadow-sm text-xs text-purple-400 border-white">EJS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </ul>
+    </div>
+
+    <section class="flex items-center justify-center pt-7" id="skills">
+      <p class="t4 pt-8 animate-from-bottom scroll-animation decorative-border">Skills</p>
+    </section>
+
+    <section id="skills" class="mt-3 text-center animate-from-bottom px-4">
+      <div class="mt-10 animate-from-bottom">
+        <h3 class="text-2xl font-semibold t5">Languages</h3>
+        <div class="flex flex-wrap justify-center gap-10 mt-6">
+          <div class="flex flex-col items-center">
+            <img src="./assets/js.png" alt="JavaScript" class="h-14 w-14 object-contain">
+            <p class="mt-2 t3">JavaScript</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/java.png" alt="Core Java" class="h-14 w-14 object-contain">
+            <p class="mt-2 t3">Core Java</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 animate-from-bottom">
+        <h3 class="text-2xl font-semibold t5">Web Development</h3>
+        <div class="flex flex-wrap justify-center gap-10 mt-6">
+          <div class="flex flex-col items-center">
+            <img src="./assets/html.webp" alt="HTML" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">HTML</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/css.webp" alt="CSS" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">CSS</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/tailwindcss.webp" alt="Tailwind CSS" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Tailwind CSS</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/bootstrap.webp" alt="Bootstrap" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Bootstrap</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/nodejs.webp" alt="Node.js" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Node.js</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/express-js.png" alt="Express.js" class="h-12 w-12 object-contain invert">
+            <p class="mt-2 t3">Express.js</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/reactjs.webp" alt="React.js" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">React.js</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 animate-from-bottom">
+        <h3 class="text-2xl font-semibold t5">Databases</h3>
+        <div class="flex flex-wrap justify-center gap-6 mt-6">
+          <div class="flex flex-col items-center">
+            <img src="./assets/mongodb.webp" alt="MongoDB" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">MongoDB</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/mysql.webp" alt="MySQL" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">MySQL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 animate-from-bottom">
+        <h3 class="text-2xl font-semibold t5">Developer Tools</h3>
+        <div class="flex flex-wrap justify-center gap-10 mt-6">
+          <div class="flex flex-col items-center">
+            <img src="./assets/vscode.webp" alt="VSCode" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">VSCode</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/postman.webp" alt="Postman" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Postman</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/blender.webp" alt="Blender" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Blender</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="./assets/git.webp" alt="Git" class="h-12 w-12 object-contain">
+            <p class="mt-2 t3">Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-center pt-7" id="contact">
+      <p class="t4 pt-12 animate-from-bottom scroll-animation decorative-border">Contact</p>
+    </section>
+
+    <section class="body-font relative text-gray-400">
+      <div class="container mx-auto px-5 py-6 pt-7">
+        <div class="mb-12 flex w-full flex-col text-center animate-from-bottom">
+          <p class="mx-auto t3 text-base leading-relaxed lg:w-2/3">
+            Interested in collaborating or have any questions about my projects? Feel free to reach out! I'm always open
+            to discuss new opportunities and ideas.
+          </p>
+        </div>
+        <div class="mx-auto md:w-2/3 lg:w-1/2 animate-from-bottom">
+          <form action="/send-email" method="POST">
+            <div class="-m-2 flex flex-wrap">
+              <div class="w-1/2 p-2">
+                <div class="relative">
+                  <input type="text" id="name" name="name"
+                    class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900"
+                    placeholder="Name" />
+                  <label for="name"
+                    class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Name</label>
+                </div>
+              </div>
+
+              <div class="w-1/2 p-2">
+                <div class="relative">
+                  <input type="email" id="email" name="email"
+                    class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900"
+                    placeholder="Email" />
+                  <label for="email"
+                    class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Email</label>
+                </div>
+              </div>
+
+              <div class="mt-4 w-full p-2">
+                <div class="relative">
+                  <textarea id="message" name="message"
+                    class="peer h-32 w-full resize-none rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900"
+                    placeholder="Message"></textarea>
+                  <label for="message"
+                    class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Message</label>
+                </div>
+              </div>
+
+              <div class="w-full p-2">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-400 py-6 animate-from-bottom">
+      <div class="container mx-auto px-5 flex flex-col items-center justify-between lg:flex-row">
+        <div class="flex items-center mb-4 lg:mb-0 t6">
+          <p>Made with <i class="fas fa-heart text-red-500 mx-1"></i> by Neha</p>
+          <span class="mx-2">|</span>
+          <div id="local-time"></div>
+        </div>
+        <div class="hidden lg:flex items-center lg:mx-4 text-gray-500 btn2">
+          <i class="fas fa-envelope text-gray-400 mr-2"></i>
+          <a href="mailto:neha.k.thakor@gmail.com">neha.k.thakor@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll(".link");
+      const homeLink = document.querySelector(".home-link");
+      const menuBtn = document.getElementById("menu-btn");
+      const closeBtn = document.getElementById("close-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mainHeader = document.getElementById("main-header");
+
+      function closeMobileMenu() {
+        mobileMenu.classList.add('menu-hidden');
+        mobileMenu.classList.remove('menu-visible');
+      }
+
+      homeLink.classList.add("active");
+
+      links.forEach(link => {
+        link.addEventListener("click", function () {
+          links.forEach(l => l.classList.remove("active"));
+          this.classList.add("active");
+          closeMobileMenu();
+        });
+      });
+
+      menuBtn.addEventListener("click", function () {
+        mobileMenu.classList.remove('menu-hidden');
+        mobileMenu.classList.add('menu-visible');
+        // mainHeader.style.display = 'none';
+      });
+
+      closeBtn.addEventListener("click", function () {
+        closeMobileMenu();
+        mainHeader.style.display = 'block';
+      });
+
+      document.addEventListener("click", function (event) {
+        if (!mobileMenu.contains(event.target) && event.target !== menuBtn) {
+          closeMobileMenu();
+          mainHeader.style.display = 'block';
+        }
+      });
+
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const animateItems = document.querySelectorAll(".animate-from-bottom");
+
+      function checkScroll() {
+        animateItems.forEach(item => {
+          const itemTop = item.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          if (itemTop < windowHeight) {
+            item.classList.add("visible");
+          }
+        });
+      }
+
+      checkScroll();
+
+      window.addEventListener("scroll", checkScroll);
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const animateItems = document.querySelectorAll(".animate-from-bottom");
+
+      function checkScroll() {
+        animateItems.forEach(item => {
+          const itemTop = item.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          if (itemTop < windowHeight) {
+            item.classList.add("visible");
+          }
+        });
+      }
+
+      checkScroll();
+
+      window.addEventListener("scroll", checkScroll);
+    });
+
+    function updateTime() {
+      const now = new Date();
+      const options = { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+      const localTime = now.toLocaleTimeString('en-US', options);
+      document.getElementById('local-time').textContent = localTime;
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();
+
+  </script>
+
+
+</body>
+
+</html>
